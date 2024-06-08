@@ -1,75 +1,139 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
-    <head>
-        <title>Curriculo</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/css.css">
-    </head>
-    <body>
-        <section class="painel mais-vendidos">
-            <h1>Douglas Proença</h1>
-            <p> <img src="img/logo.jpeg" alt="Foto do Curriculo" align="left">
-                <br><br><br> (11)95145-1712<br />
-                douglasp.r.desouza@gmail.com<br />
-                Linkedln: <a href=https://www.linkedin.com/in/douglas-proença>https://www.linkedin.com/in/douglas-proença</a><br />
-                Github: <a href=https://github.com/DouglasProenca>https://github.com/DouglasProenca</a><br />
-            </p>
-            <br>
-            <br>
-            <br>
-            <br>
-            <div>
-                <section class="secoes">
-                    <h2>Experiência profissional</h2>
-                    <label>ABS</label><br>
-                    <label>Estágiario de Desenvolvimento</label><br>
-                    <label>A partir de 2021</label><br>
-                    <br>
-                    <label>IBCP Psicanálise</label><br>
-                    <label>Assistente Comercial</label><br>
-                    <label>De 2018 a 2020</label><br>
-                </section>
-                <br>
-                <section class="secoes">
-                    <h2>Formação</h2>
-                    <label>Análise e Desenvolvimento de Sistemas</label><br>
-                    <label>Senac - 4º Semestre</label><br>
-                    <br>
-                    <label>Gestão Empresarial</label><br>
-                    <label>Fatec Zona Sul</label><br>
-                </section>
-                <br>
-                <section class="secoes">
-                    <h2>Conhecimentos</h2>
-                    <label>Java </label><br>
-                    <label>Jasper </label><br>
-                    <label>SQL Server </label><br>
-                    <label>MY SQL </label><br>
-                </section>
-                <br>
-                <section class="secoes">
-                    <h2>Idiomas</h2>
-                    <table>
-                        <thead>
-                        <td>Idioma</td><td>Leitura</td><td>Escrita</td><td>Conversação</td>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Ingles</td>
-                                <td>Intermediário</td>
-                                <td>Intermediário</td>
-                                <td>Básico</td>                 
-                            </tr>
-                        </tbody>
-                    </table>
-                </section>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Douglas Proença</title>
+      <link rel="stylesheet" type="text/css" href="css/template.css">
+      <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <header>
+         <a href="#" class="logo"><i class="bx bxs-home"></i></a>
+         <ul class="navlist">
+            <li><a href="#experience">Carreira</a></li>
+            <li><a href="#portfolio">Projetos</a></li>
+            <li><a href="#services">Habilidades</a></li>
+         </ul>
+         <div class="bx bx-menu" id="menu-icon"></div>
+      </header>
+      <section class="home" id="home">
+         <div class="home-div">
+            <div class="home-text">
+               <h1>Douglas Proença</h1>
+               <h3>Analista Desenvolvedor</h3>
+               <div class="socials">
+                  <a href="https://www.instagram.com/dg_proenca/" class="btn-socials"><span><i class="bx bxl-instagram"></i></span></a>
+                  <a href="https://www.linkedin.com/in/douglas-proen%C3%A7a/" class="btn-socials"><span><i class="bx bxl-linkedin"></i></span></a>
+                  <a href="https://github.com/DouglasProenca" class="btn-socials"><span><i class="bx bxl-github"></i></span></a>
+               </div>
             </div>
-        </section>
-    </body>
+         </div>
+         <div class="about-img-container"></div>
+         <div class="about-img">
+            <img src="img/logo.jpeg" alt="Minha foto">
+         </div>
+         </div>
+      </section>
+      
+      <section class="experience" id="experience">
+         <div class="main-text">
+            <h2>Carreira</h2>
+         </div>
+         <div class="timeline">
+            <div class="container">
+               <img src="img/abs.png">
+               <div class="text-box">
+                  <h5>ABS</h5>
+                  <h4>Analista Desenvolvedor Pleno</h4>
+                  <h3>Tempo integral</h3>
+                  <p> • fev de 2023 - o momento</p>
+                  <h4>Analista Desenvolvedor júnior</h4>
+                  <h3>Tempo integral</h3>
+                  <p> • jun de 2022 - fev de 2023 - 1 ano</p>
+                  <h4>Estágiario de desenvolvimento</h4>
+                  <h3>Tempo integral</h3>
+                  <p> • jun de 2024 - jun de 2022 - 1 ano e 1 mês</p>
+               </div>
+            </div>
+            <div class="container">
+               <img src="img/ibcp_psicanalise_logo.png">
+               <div class="text-box">
+                  <h5>IBCP Psicanálise</span> </h5>
+                  <h4>Assistente Comercial</h4>
+                  <h3>Tempo integral</h3>
+                  <p> • set de 2019 - jun de 2021 - 1 ano e 10 meses</p>
+                  <h4>Estágiario de Administração</h4>
+                  <h3>Tempo integral</h3>
+                  <p> • out de 2018 - set de 2021 - 1 ano</p>
+               </div>
+            </div>
+         </div>
+      </section>
+  
+      <section class="portfolio" id="portfolio">
+         <div class="main-text">
+            <h2>Projetos</h2>
+         </div>
+         <div class="portfolio-content">
+               <input type="radio" name="slider" id="item-1" checked>
+               <input type="radio" name="slider" id="item-2">
+               <input type="radio" name="slider" id="item-3">
+             <div class="cards">
+               <label class="card" for="item-1" id="java" onclick="redirectTo('https://github.com/DouglasProenca/projetoIntegradorII')">
+                 <img src="img/java.jpg" alt="java">
+               </label>
+               <label class="card" for="item-2" id="jasper" onclick="redirectTo('https://github.com/DouglasProenca/JasperJson')">
+                 <img src="img/jasper.jpg" alt="jasper">
+               </label>
+               <label class="card" for="item-3" id="power-BI">
+                 <img src="img/power-BI.jpg" alt="power-BI">
+               </label>
+             </div>
+           </div>
+      </section>
+
+      <section class="services" id="services">
+         <div class="main-text">
+            <h2>Habilidades</h2>
+         </div>
+         <div class="services-content">
+            <div class="box">
+               <div class="s-icons">
+                  <i class="bx bxl-java"></i>
+               </div>
+               <h3>Java</h3>
+            </div>
+            <div class="box">
+               <div class="s-icons">
+                  <i class="bx bxl-spring-boot"></i>
+               </div>
+               <h3>Spring Boot</h3>
+            </div>
+            <div  class="box" onclick="openPDF('certificados/jasper.pdf')">
+               <div class="s-icons">
+                  <i class="bx bxs-doughnut-chart"></i>
+               </div>
+               <h3>Jasper Reports</h3>
+            </div>
+            <div class="box">
+               <div class="s-icons">
+                  <i class="bx bx-bar-chart"></i>
+               </div>
+               <h3>Power BI</h3>
+            </div>
+            <div class="box" onclick="openPDF('certificados/jasper.pdf')">
+               <div class="s-icons">
+                  <i class="bx bx-data"></i>
+               </div>
+               <h3>SQL Server</h3>
+            </div>
+         </div>
+      </section>
+      <script type="text/javascript" src="js/script.js"></script>
+   </body>
 </html>
